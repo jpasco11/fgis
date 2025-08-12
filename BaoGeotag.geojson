@@ -1,0 +1,7167 @@
+{
+  "type": "FeatureCollection",
+  "name": "BaoGeotag",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 83,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "dam"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.586552019719221, 11.12400303121043]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 88,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnouyt"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.544491226776898, 11.132773178186046]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 84,
+        "name": "Lateral A1 Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54182206076284, 11.131787992378001]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 85,
+        "name": "Lateral A1 Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541834279559325, 11.131790411402717]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 86,
+        "name": "Lateral A1 Drop",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.543232134320519, 11.132316983551748]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 87,
+        "name": "Lateral A1 Duckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.544506991632062, 11.132767247345091]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 99,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnin"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551994371828968, 11.128197745843384]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 147,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "NULLut"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55338735269801, 11.12186021290052]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 148,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Tunrout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553386993719855, 11.121860214755044]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 162,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.548711924413055, 11.108535211478594]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 171,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542413005412115, 11.104908588286976]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 173,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Haad Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542738364643114, 11.104728945727974]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 92,
+        "name": "Lateral A1 Turnout to TSA 1",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.552561531697762, 11.133540352658034]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 125,
+        "name": "Lateral A2 Turnout to TSA 3",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.527123325406606, 11.117627845359245]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 124,
+        "name": "Lateral A2 Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.527903884090591, 11.118409355011362]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 122,
+        "name": "Lateral A2 Turnout to TSA 1",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.530665413592033, 11.121680436162277]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 121,
+        "name": "Lateral A2 Turnout to TSA 2",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.530620313256676, 11.121705837727072]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 119,
+        "name": "Lateral A2 Elevated Flume Outlet",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Outlet"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.530892042785183, 11.122010152216941]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 117,
+        "name": "Latweral A2 Elevated Flume Inlet",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Inlet"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.530976034995973, 11.122111032941817]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 116,
+        "name": "Lateral A2 Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.532019336919149, 11.123344507901823]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 114,
+        "name": "Lateral A2 Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.538941841440476, 11.126705231567872]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 113,
+        "name": "Lateral A2 Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542075063407481, 11.126891965575457]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 112,
+        "name": "Lateral A2 Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542091963736425, 11.126897196862034]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 109,
+        "name": "Lateral A Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545203001050808, 11.126553010220826]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 94,
+        "name": "Lateral A1 Head Gate",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55362193380995, 11.128478899716656]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 106,
+        "name": "Lateral A Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545216980408199, 11.126565967429103]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 105,
+        "name": "Lateral A Duckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545220053741417, 11.126570117387978]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "name": "Lateral A2 Head Gate",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545228093957803, 11.126580091600978]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "name": "Lateral A2 Head Gate",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545218115251018, 11.126593969675936]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 95,
+        "name": "Lateral A Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553608916343734, 11.128461240448202]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 90,
+        "name": "Lateral A1 Duckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.548878270676511, 11.13390007227588]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 98,
+        "name": "Lateral A Duckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55360593355347, 11.128474196261788]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 93,
+        "name": "Lateral A Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553574019456704, 11.128514955085315]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 126,
+        "name": "Lateral A1 Drainage Canal",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drainage"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553245654661509, 11.130315012758903]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 127,
+        "name": "Lateral A Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.556597042218542, 11.127299756653256]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 129,
+        "name": "Lateral A Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.558518045978559, 11.125988142176437]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 130,
+        "name": "Lateral AO Head Gate",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.560855200856082, 11.124931214251689]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 132,
+        "name": "Lateral AO Turnout to TSA 1",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.5606263677345, 11.124632115175059]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 133,
+        "name": "Lateral AO Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.560579969147994, 11.124547977831954]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 134,
+        "name": "Lateral AO Turnout to TSA 2",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.559612954212028, 11.122779102999422]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 136,
+        "name": "Lateral AO Duckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.559622017651009, 11.122762038520843]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 137,
+        "name": "Lateral AO Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.559635384113193, 11.122744065394803]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 140,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.557241028737394, 11.119280211842803]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 139,
+        "name": "Lateral AOAHead Gate",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.557285177441628, 11.119346635064113]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 142,
+        "name": "Lateral AO Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.554885496667396, 11.118558519247159]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 151,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.552107987358667, 11.115698853105988]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 152,
+        "name": "Lateral AO Turnout to TSA 5",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.552061709062727, 11.115636694254768]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 153,
+        "name": "Lateral AO Duckbil lWeir",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.552070813532566, 11.115593394400172]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 155,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551914489460955, 11.115358082606908]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 156,
+        "name": "Lateral AO Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551179372619103, 11.114489370459602]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 158,
+        "name": "Lateral AO Duckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.549469820960397, 11.112228108946068]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 159,
+        "name": "Lateral AO Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.549460283832204, 11.112189514027826]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 160,
+        "name": "Lateral AO Duckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54875090777756, 11.108916133367083]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 164,
+        "name": "Lateral AO Turnout to TSA 8",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.547510258736693, 11.106763143771817]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 165,
+        "name": "Lateral AO Duckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.547488239773628, 11.106740035051917]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 167,
+        "name": "Lateral AO Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.547429073056932, 11.106718003590418]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 166,
+        "name": "Lateral AO Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.547463227558566, 11.106727932229937]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 169,
+        "name": "Lateral AO Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.543350054638822, 11.105481853843864]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 170,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.543300103336151, 11.105471473864737]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 174,
+        "name": "Lateral AOB Head Gate",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542738364643114, 11.104728945727974]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 175,
+        "name": "Lateral AO Duckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542742954767363, 11.104714386337019]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 176,
+        "name": "Lateral AO Turnout to TSA 10",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542729217500977, 11.104696020971589]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 177,
+        "name": "Lateral AO Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542738875877177, 11.104689589886576]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 100,
+        "name": "Lateral A Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.549290920239869, 11.127750448913439]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "name": "Lateral A Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.544045076476081, 11.125396979345195]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 111,
+        "name": "Lateral A Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.544003930106186, 11.12535500128066]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 144,
+        "name": "Elevated Flume Outlet",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Outlet"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.554991240332541, 11.119544810475054]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 145,
+        "name": "Lateral AOA Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.554849225100554, 11.11984264196758]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 149,
+        "name": "Lateral AOA Turnout to TSA 2",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553386993719855, 11.121860214755044]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 150,
+        "name": "Lateral AOA Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.552952608593571, 11.122807462395135]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 189,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Flume"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.537979151803668, 11.10924320915265]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 193,
+        "name": "Mas-in Right Siphon",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Sipong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.52384148025466, 11.054884886261956]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 194,
+        "name": "Mas-In Righ Siphon",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Siphon"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.523845328064951, 11.054888648607131]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 197,
+        "name": "Mas-in Right Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520079357098169, 11.060129237839416]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 198,
+        "name": "Mas-in Right Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520079357098169, 11.060129237839416]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 199,
+        "name": "Mas-in Righr Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520122226518453, 11.060183148394032]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 200,
+        "name": "Mas-in Right Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520121986027988, 11.060182913244754]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 201,
+        "name": "Mas-in Right Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520123256695356, 11.060197324733085]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 202,
+        "name": "Lateral AO3 Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520153965173392, 11.060213006333685]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 203,
+        "name": "Lateral AO3 Cut and Cover",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Cut and Cover"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520217898405008, 11.06022190279767]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 204,
+        "name": "Lateral AO3 Turnout to TSA 1",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.521028065440305, 11.060355269759741]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 205,
+        "name": "LateralAO3 Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.521055030935742, 11.060387515194018]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 206,
+        "name": "Lateral AO3 Check Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.525019770773753, 11.06124673185267]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 207,
+        "name": "Lateral AO3 Intake",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Intake"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.524977380138566, 11.061193056073433]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 208,
+        "name": "Lateral AO3 Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.528399528204531, 11.058881209153832]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 209,
+        "name": "Lateral AO2 Check Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.519811018946243, 11.066236499173753]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 210,
+        "name": "Lateral AO2 Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.523560085772147, 11.063198967269368]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 212,
+        "name": "Lateral AO2 Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.530154789698074, 11.05916730440674]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 213,
+        "name": "Lateral AO2 Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.532089021844641, 11.057309059621854]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 214,
+        "name": "Lateral AO2 Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.533068998792345, 11.056278064913981]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 215,
+        "name": "Mas-in Right Carabao Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520950836014606, 11.058742274656037]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 216,
+        "name": "Mas-in Right Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.52096208461235, 11.058696364497056]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 217,
+        "name": "Mas-in Right Carabao Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.521076838021756, 11.058584225902599]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 218,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "NULLng"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.521796260033184, 11.057593808600551]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 219,
+        "name": "Mas-in Right Carabao Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.521796262471526, 11.057594281305335]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 220,
+        "name": "Mas-in Right Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.521790150269211, 11.057569021706984]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 221,
+        "name": "Lateral AO2 Proportioning Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.535237016288519, 11.047920183729961]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 222,
+        "name": "Lateral AO2 Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.535270947070785, 11.047911502717801]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 223,
+        "name": "Lateral AO2 Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.535234395842323, 11.047968413911436]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 224,
+        "name": "Lateral AO2 Siphon",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Siphon"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534460079754439, 11.048972133059173]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 225,
+        "name": "Lateral AO2 Drainage Outlet",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drainage"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534491306144915, 11.052770000498661]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 226,
+        "name": "Lateral AO2 Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534494906525509, 11.05281819912123]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 227,
+        "name": "Lateral AO2 Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.53404324027521, 11.053937928545819]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 228,
+        "name": "Lateral AO2 Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534059979047314, 11.053935952784704]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 229,
+        "name": "Lateral AO2 Turnout to TSA 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534041290825527, 11.053977173749459]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 230,
+        "name": "Lateral AO2 Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.533058001250183, 11.056302834790349]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 231,
+        "name": "Lateral AO2 Special Turnout ",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.532086992970434, 11.057310015332048]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 232,
+        "name": "Lateral AO2 Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.532087008001426, 11.057310030028226]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 233,
+        "name": "Lateral AO2 Carabao Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.531014002332569, 11.058248158094875]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 234,
+        "name": "Lateral AO2 Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.53014516654693, 11.059188976146517]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 235,
+        "name": "Lateral AO2 Carabao Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.530117139834459, 11.05922906244737]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 236,
+        "name": "Lateral AO3 Carabao Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.524454972087426, 11.060680485849559]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 237,
+        "name": "Lateral AO3 Harvester Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.522670078731139, 11.060519304434788]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 238,
+        "name": "Lateral AO3 Harvester Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.522671992909821, 11.060519294792291]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 239,
+        "name": "Lateral AO3 Proportioning Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.521024856198721, 11.060368045577544]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 240,
+        "name": "Mas-in Right Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520156637000625, 11.059788370871178]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 191,
+        "name": "Mas-in Intake Right",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Intake"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.519134851676796, 11.061833878091475]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 241,
+        "name": "Lateral AO3 Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.525000978314694, 11.060993052006634]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 242,
+        "name": "Lateral AO3 End Check",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.528425242881355, 11.058855048866398]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 243,
+        "name": "Lateral AO3 End Check",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.528425026564548, 11.058854837364455]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 244,
+        "name": "Lateral AO3 Harvester Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.527552463665188, 11.059363311854234]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 245,
+        "name": "Lateral AO3 Harvester Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.526936301105764, 11.059574343339555]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 195,
+        "name": "Mas-in Right Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.523337004476062, 11.0556097390976]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 196,
+        "name": "Mas-in Right Drop",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.522544616411906, 11.056554436426337]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 192,
+        "name": "Mas-in Dam",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Dam"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.519173999271501, 11.061966001626082]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 190,
+        "name": "Mas-in Intake Left",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Intake"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.519108915006328, 11.06200135044236]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 246,
+        "name": "Mas-in Outlet",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Outlet"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520356210099777, 11.062006083043297]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 247,
+        "name": "Lateral AO2 Proportioning Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520479885484306, 11.062307559017908]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 248,
+        "name": "Lateral AO2 Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520495584575102, 11.062300006060021]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 178,
+        "name": "Lateral AO Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542703204876844, 11.10466424621827]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 180,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541579977206524, 11.102814546166467]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 182,
+        "name": "Lateral AODuckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541339679643514, 11.102444047348733]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 181,
+        "name": "Lateral AO Turnout to TSA 11",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541358161259936, 11.102477278944651]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 183,
+        "name": "Lateral AO Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.540391001636138, 11.100950994757319]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 186,
+        "name": "Lateral AO Turnout to BAYUG",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.538184297620973, 11.098247956187159]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 187,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.538120146294659, 11.098199003407096]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 249,
+        "name": "Lateral AO Masin",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.520501920202648, 11.062677634212889]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 250,
+        "name": "Lateral AO2 Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.523520778275824, 11.063181124052205]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 211,
+        "name": "Lateral AO2 Flume",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Flume"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.527252361366067, 11.061477725943462]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 253,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.573007070455716, 11.058696947508578]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 254,
+        "name": "Cabugao Intake",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Intake"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.572995270889621, 11.058703918022031]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 255,
+        "name": "Cabugao Cut and Cover",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Cut and Cover"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.572886387109307, 11.058666218655791]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 256,
+        "name": "Cabugao Siphon",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Siphon"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570477410136334, 11.055394249955851]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 257,
+        "name": "Cabugao Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570047059302482, 11.05459874597345]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 258,
+        "name": "TSA Cabugao",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570009902556023, 11.054592561215726]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 259,
+        "name": "Cabugao Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570070577070638, 11.054468413371342]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 260,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570070582725819, 11.054469476284902]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 261,
+        "name": "Cabugao Outlet",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Outlet"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570067806812801, 11.054402791028052]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 262,
+        "name": "Cabugao Siphon",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Siphon"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.571536323912426, 11.050608763618683]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 263,
+        "name": "Lateral E Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.566205089135707, 11.075123323670311]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 264,
+        "name": "SMC Proportioning Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.566226261578151, 11.075108066883612]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 265,
+        "name": "SMC Control Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Control"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.566236191485743, 11.075103497857077]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 266,
+        "name": "SMC Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.566168135196349, 11.075105179610848]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 267,
+        "name": "SMC Turnout to TSA 1",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.566206124043532, 11.075102923074585]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 268,
+        "name": "SMC Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.566191014495203, 11.075254913791406]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 269,
+        "name": "SMC Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.565980381996923, 11.07655735930398]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 270,
+        "name": "SMC Elevated Flume Outake",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Flume"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.565755754036203, 11.077150584098602]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 271,
+        "name": "SMC Bridge",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Bridge"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.565161938755054, 11.078135469574313]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 272,
+        "name": "SMC Elevated Flume Intake",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Flume"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.564943474012679, 11.078606423582722]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 273,
+        "name": "SMC Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.564336584648672, 11.080777267030117]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 274,
+        "name": "SMC Turnout to TSA 4",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.564293991613667, 11.080862523357975]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 275,
+        "name": "SMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.563148213188171, 11.086934329833333]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 277,
+        "name": "SMC Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.563126030806202, 11.089747083214053]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 278,
+        "name": "SMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.563119161459085, 11.089804517797837]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 279,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.563104982171794, 11.089836479624404]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 280,
+        "name": "SMC Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.56310713448363, 11.089836468466276]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 281,
+        "name": "SMC Turnout to TSA 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.563057173700258, 11.089885622892716]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 282,
+        "name": "SMC Turnout to TSA 3",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.563127742404774, 11.089934152467668]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 283,
+        "name": "SMC Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.560685978615354, 11.094081034930563]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 284,
+        "name": "SMC Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.560679068201878, 11.094104949601745]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 285,
+        "name": "Lateral D Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.560607057868566, 11.094095961496201]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 286,
+        "name": "Lateral D Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.560641857649017, 11.094129974081259]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 287,
+        "name": "Lateral D Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.560607628356721, 11.094096519079605]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 288,
+        "name": "Lateral D Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.555818457063836, 11.092784282181961]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 289,
+        "name": "Lateral D Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.555802949568857, 11.092770909296522]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 290,
+        "name": "Lateral D Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553672056060023, 11.092252468017463]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 291,
+        "name": "Lateral D Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55367229317099, 11.092252231368972]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 292,
+        "name": "Lateral D Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553640999047033, 11.092239208778206]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 293,
+        "name": "Lateral D Turnin",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnin"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553592255722293, 11.092262060929542]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 294,
+        "name": "Lateral D Water Reuse Facility",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Other Structures"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553592017367521, 11.092262062157964]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 295,
+        "name": "Lateral D1 Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551483082809867, 11.090538976958332]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 297,
+        "name": "Lateral D1 Turnout to TSA 1",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55146697436237, 11.090524051401641]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 298,
+        "name": "Lateral D Control Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Control"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551462980096346, 11.090535019296043]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 299,
+        "name": "Lateral D Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551456023776069, 11.090537997926067]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 300,
+        "name": "Lateral D Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551461040067977, 11.09054003209604]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 301,
+        "name": "Lateral D Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": "Non-Operational",
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.548540685468524, 11.08854320454579]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 302,
+        "name": "Lateral D Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54846374022344, 11.088506402209282]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 303,
+        "name": "Lateral D Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.547103323418483, 11.087263031341854]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 304,
+        "name": "Lateral D Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545811119928274, 11.085980339928771]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 305,
+        "name": "Lateral D Carabao Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545790493155721, 11.085955961202108]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 306,
+        "name": "Lateral D Turnout to TSA 2(OSDI)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54344015438619, 11.084679973481149]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 307,
+        "name": "Lateral D Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.543400312931951, 11.084673114509089]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 308,
+        "name": "Lateral D Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.543371706020054, 11.084672319167559]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 309,
+        "name": "Lateral D Turnout to TSA 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54185051771843, 11.081942662115665]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 310,
+        "name": "Lateral D Turnout to TSA 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54185051771843, 11.081942662115665]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 311,
+        "name": "Lateral D Turnout(Left) to TSA 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541871423261426, 11.081929371325959]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 312,
+        "name": "Lateral D Turnout(Left) to TSA 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541872850881418, 11.081928893174775]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 313,
+        "name": "Lateral D Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54184790734034, 11.081899356742085]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 314,
+        "name": "Lateral D Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541816161824457, 11.081845370575063]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 315,
+        "name": "Lateral D Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.540146609026735, 11.078906456869648]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 316,
+        "name": "SMC Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.558811763240271, 11.098319313916649]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 317,
+        "name": "Lateral C Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.558835018794241, 11.098299653256435]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 318,
+        "name": "Lateral C Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.558780540576635, 11.098274979977699]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 319,
+        "name": "Lateral C Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55718913537639, 11.097968209180086]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 320,
+        "name": "Lateral C Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55715994332779, 11.09794717171196]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 252,
+        "name": "Lateral A1 End Check",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.540133526364727, 11.131013171194018]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 89,
+        "name": "Lateral A1 Turnout to TSA 3",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.544491046345883, 11.132773001847369]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 321,
+        "name": "Lateral C Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.556467694630413, 11.097805490662607]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 322,
+        "name": "Lateral C - Right",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55650203327717, 11.097808138388437]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 323,
+        "name": "Lateral C Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossong"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55646721541919, 11.097805022285998]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 324,
+        "name": "Lateral C Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.556467697123765, 11.097805961501814]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 325,
+        "name": "Lateral C Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.554342322966534, 11.09738009970644]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 326,
+        "name": "Lateral C Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.554265995854735, 11.097370605526431]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 327,
+        "name": "Lateral C Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.554227845992827, 11.097368448047431]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 328,
+        "name": "Lateral C Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551498087485314, 11.097278692977312]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 329,
+        "name": "Lateral C Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551543564127613, 11.097223839850916]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 330,
+        "name": "Lateral C Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.550669983574693, 11.09686789855744]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 331,
+        "name": "Lateral C Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.550638706407526, 11.096858171590746]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 332,
+        "name": "Lateral C Turnout ot TSA 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.549937904497327, 11.096133366741629]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 333,
+        "name": "Lateral C Turnout to TSA 3",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.549973981042811, 11.096103988269643]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 335,
+        "name": "Lateral C Carabao Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.548870925809751, 11.094176922830238]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 336,
+        "name": "Lateral C Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.548278828670576, 11.093361620899355]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 337,
+        "name": "Lateral C Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54826688358628, 11.093356502863109]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 338,
+        "name": "Lateral C Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.546186231384311, 11.09120631459559]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 339,
+        "name": "Lateral C Turnout to TSA 4",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54620002254201, 11.091199887329857]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 340,
+        "name": "Lateral C Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.546178958211428, 11.091183044603849]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 341,
+        "name": "Lateral C Carabao Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.544121563194764, 11.089348073637639]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 342,
+        "name": "Lateral C Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542597244208594, 11.088255840367816]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 343,
+        "name": "Lateral C Turnout to TSA 4",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542559755034347, 11.08819764609059]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 344,
+        "name": "Lateral C Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542557714893221, 11.08817223034303]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 345,
+        "name": "Lateral C Carabao Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542168857733785, 11.087836115668129]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 346,
+        "name": "Lateral C Harvester Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542133982994571, 11.087821932923966]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 347,
+        "name": "Lateral C Turnout to TSA 5",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541311056314655, 11.087061264686982]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 348,
+        "name": "Lateral C Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541353295491874, 11.087025263790988]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 349,
+        "name": "Lateral C Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541299321895835, 11.087005292848225]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 350,
+        "name": "Lateral C Special Turnout(Left)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541134136185946, 11.086822621046851]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 351,
+        "name": "Lateral C Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.541104538640113, 11.086814767744583]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 352,
+        "name": "Lateral C Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": "Non-Operational",
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.539410645446395, 11.084559425424672]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 353,
+        "name": "Lateral C Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drpo"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.538697234414258, 11.083600164486411]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 354,
+        "name": "Lateral C Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.538699151056377, 11.083602038135224]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 355,
+        "name": "Lateral CSpecial Turnout(Left)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.535998277693153, 11.080072898938354]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 356,
+        "name": "Lateral C Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.536045886882206, 11.080061120609384]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 357,
+        "name": "Lateral C Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.535811474521623, 11.07978851044839]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 358,
+        "name": "Lateral C Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.535811887354498, 11.079776266068389]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 359,
+        "name": "Lateral C Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534269944291268, 11.077665016571657]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 360,
+        "name": "Lateral C Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534261036592611, 11.077647993275942]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 361,
+        "name": "Lateral C Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.53371326041686, 11.076518188651271]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 362,
+        "name": "Lateral C End Check",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.533702218114925, 11.07650317731899]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 363,
+        "name": "Lateral C Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.533698234920053, 11.07651638156463]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 364,
+        "name": "Lateral D1 Turnout to TSA 3",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553638863803172, 11.074496150827368]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 365,
+        "name": "Lateral D1 Control Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55370186016917, 11.074509952237062]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 366,
+        "name": "Lateral D1 End Check",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553705395788768, 11.074638006149231]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 367,
+        "name": "Lateral D1 Turnout to TSA 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553832886303923, 11.077389016511427]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 368,
+        "name": "Lateral D1 Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553846953327096, 11.077344683890884]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 369,
+        "name": "Lateral D1 Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553840647102732, 11.077323998813322]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 370,
+        "name": "Lateral D1Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55411349379294, 11.078034641772556]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 371,
+        "name": "Lateral D1 Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop["
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553895045491899, 11.082979135784868]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 372,
+        "name": "Lateral D1 Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553895047977718, 11.082979606625118]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 373,
+        "name": "Lateral D1 Threher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553905857827843, 11.082950358057742]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 374,
+        "name": "Lateral D1 Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.552924703680361, 11.086501523286747]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 375,
+        "name": "Lateral D1 Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55292579127557, 11.086526943757034]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 376,
+        "name": "Lateral D1 Turnout to TSA 1",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.552880311329176, 11.086580855190972]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 377,
+        "name": "Lateral AOB Turnout to TSA 1",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.540517906037664, 11.106093879982406]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 378,
+        "name": "Lateral AOB Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.540515230855235, 11.106129207806317]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 379,
+        "name": "Lateral AOB Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54048059713719, 11.106161403155699]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 380,
+        "name": "Elevated Flume Inlet",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Flume"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.537560599309515, 11.108590523642272]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 381,
+        "name": "Inlet(TUNAYAG)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Inlet"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.537592470249933, 11.10848583089208]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 382,
+        "name": "Outlet",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Outlet"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.53747604227182, 11.108466649612398]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 383,
+        "name": "Supplemental Check Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.537562062475089, 11.108505762144377]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 384,
+        "name": "Lateral AOB Turnout to TSA 3",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.536702031194224, 11.107794070136434]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 385,
+        "name": "Lateral AOB Proportioning Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.536717006570456, 11.107785989144626]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 386,
+        "name": "Lateral AOB Turnout to TSA 4",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.536704921491221, 11.107776986856972]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 387,
+        "name": "Lateral A Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.561883827904083, 11.124933122892791]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 388,
+        "name": "Lateral A Drainage Inflow",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drainage"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.564240264922432, 11.124349140952482]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 389,
+        "name": "Lateral A Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.564355218607972, 11.124269440041511]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 390,
+        "name": "Lateral A Thresher Crossidng",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.567106808799423, 11.124429264358595]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 391,
+        "name": "Lateral A Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.567139001334027, 11.124431215360937]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 392,
+        "name": "Lateral A Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.567420086875615, 11.124369657816683]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 393,
+        "name": "Lateral A Turnout to tSA 3",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.567390737804914, 11.124319900840552]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 394,
+        "name": "Lateral A Turnout to tTSA 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.567483116790328, 11.124365326959914]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 395,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "NULLng"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.569069246200954, 11.120940338592115]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 396,
+        "name": "Lateral A Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.569069241163135, 11.120939396920823]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 397,
+        "name": "Lateral A Special Turnout(Left)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570223306484237, 11.120192492712917]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 398,
+        "name": "Lateral A Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570539334970249, 11.120002032185656]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 399,
+        "name": "Lateral A Turnout to TSA 1",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570554338885671, 11.119954868978727]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 400,
+        "name": "Lateral A Special Turnout(Left)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570878233526756, 11.119630881539523]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 401,
+        "name": "Lateral A Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.571121971041066, 11.118939579979314]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 402,
+        "name": "Lateral A Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.571134260596935, 11.118919740147099]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 403,
+        "name": "Lateral A Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.572696248073782, 11.116362051606897]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 404,
+        "name": "Lateral A Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.57313894927934, 11.116056746142275]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 405,
+        "name": "Lateral A Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.57314403947727, 11.116027997791667]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 406,
+        "name": "SMC Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.57314635707381, 11.115971189623094]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 407,
+        "name": "SMC Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.573145877805999, 11.11597072128122]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 408,
+        "name": "Diversion Canal Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.584936022472419, 11.121680166792363]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 409,
+        "name": "Diversion Canal Cramp Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.584841045782554, 11.121904142418371]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 410,
+        "name": "Diversion Canal Turnout 1",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.584827127947804, 11.121931289388991]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 411,
+        "name": "Diversion Canal Outlet",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Outlet"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.584966825751593, 11.121557466905838]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 412,
+        "name": "Diversion Canal Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.584552025093814, 11.12036311686629]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 413,
+        "name": "Diversion Canal Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.584516017178515, 11.120316692885442]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 414,
+        "name": "Diversion Canal Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.582173199819394, 11.117530436638541]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 415,
+        "name": "Diversion Canal Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.582146085745975, 11.11745336049]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 416,
+        "name": "Diversion Canal Turnout 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout4"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.581976962517416, 11.116680885146069]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 417,
+        "name": "Diversion Canal Turnout 2",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.581976962517416, 11.116680885146069]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 418,
+        "name": "Diversion Canal Chute",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Chute"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.581905714132887, 11.116553189657978]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 419,
+        "name": "Diversion Canal Chute",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Overchute"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.581906667617801, 11.11655318464395]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 420,
+        "name": "Diversion Canal Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.581832028337899, 11.116327100097585]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 421,
+        "name": "Diversion Canal End Chute",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Overchute"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.581652681345091, 11.115603410670595]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 422,
+        "name": "Diversion Canal Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.575733540292134, 11.115472499969496]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 423,
+        "name": "SMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570301021610902, 11.113378318366671]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 424,
+        "name": "SMC Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570277931210342, 11.113384324475243]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 425,
+        "name": "SMC Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.569092509973714, 11.113077099444418]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 426,
+        "name": "SMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.569023690806873, 11.113045911406997]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 427,
+        "name": "SMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.565984405367971, 11.112825730181905]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 428,
+        "name": "SMC Thresher Crossign",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.565962485372694, 11.112827727651933]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 429,
+        "name": "SMC Special Turnout(Left)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.566048697447911, 11.112812682656914]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 430,
+        "name": "SMC Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.566036628217987, 11.112784494488043]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 432,
+        "name": "SMC Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.562462158702274, 11.11067789197571]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 433,
+        "name": "SMC Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.562333942049634, 11.110593804477352]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 434,
+        "name": "Intersection",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Other Structures"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.559335307727494, 11.106847489644343]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 435,
+        "name": "SRMC End Check",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Structure"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.559331894353619, 11.106833146360463]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 436,
+        "name": "SMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.559046376580653, 11.106124581226954]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 437,
+        "name": "SMC Threshre Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.559036632017197, 11.106085080173422]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 438,
+        "name": "SMC Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "ROad Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.558629505253521, 11.09934789046255]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 439,
+        "name": "SMC ROad Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossng"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.558631402144343, 11.09934599724239]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 440,
+        "name": "SMC Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.558629515242188, 11.099349773817259]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 441,
+        "name": "SRMC Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.572107798421996, 11.109884664600173]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 442,
+        "name": "SRMC Outlet",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Outlet"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.572089324067406, 11.109995881332276]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 443,
+        "name": "SRMC Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.569826004652683, 11.109200894579429]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 444,
+        "name": "SMRC Turnout(Left) to TSA 1",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.567682672332325, 11.10795118887393]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 445,
+        "name": "SRMC Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.567646038137212, 11.107965269703437]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 446,
+        "name": "SRMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.567642685932981, 11.107962462062842]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 447,
+        "name": "SRMC Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.567608077633594, 11.107954166988637]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 448,
+        "name": "SRMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.563663054965545, 11.10726893812126]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 449,
+        "name": "SRMC Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.56365996185113, 11.107270013599594]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 450,
+        "name": "SLMC Head Gate",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Head Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.572171172540578, 11.109667007593119]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 451,
+        "name": "SLMC Special Turnout(Left)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570851033259203, 11.107434131264641]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 452,
+        "name": "SLMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570827131265716, 11.107422013910389]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 453,
+        "name": "SLMC Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570818978999682, 11.10741311031901]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 454,
+        "name": "SLMC Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570819216105477, 11.107412873657463]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 455,
+        "name": "SLMC Special Turnout(Left)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570155692681922, 11.106496001821219]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 456,
+        "name": "SLMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.569781091918799, 11.105994176085636]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 457,
+        "name": "SLMC Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.569767005790467, 11.105990011883087]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 458,
+        "name": null,
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "NULLt"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570500006297095, 11.103963569500328]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 459,
+        "name": "SLMC Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.5704990478133, 11.10396263280094]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 460,
+        "name": "SLMC Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570541882546408, 11.103949225640035]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 461,
+        "name": "SLMC Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570613124390718, 11.103898944100315]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 462,
+        "name": "SLMC Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570834228069103, 11.102096558255658]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 463,
+        "name": "SLMC Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570834702273288, 11.102096084933548]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 464,
+        "name": "SLMC Siphon",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Siphon"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570738428145646, 11.102011834205554]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 465,
+        "name": "SLMC End Check",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.570415558908792, 11.101766439755062]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 466,
+        "name": "Lateral AO Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.537063979516546, 11.09785698504059]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 467,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.536988990071237, 11.097829822494759]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 468,
+        "name": "Lateral AO Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534514642615861, 11.09790364553495]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 469,
+        "name": "Lateral AO Turnout to TSA 11",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534520132219271, 11.097859357054155]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 470,
+        "name": "Lateral AO Drop",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534403846784841, 11.097820985873046]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 471,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.534402073174761, 11.097800865783272]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 472,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.532048810002919, 11.097325238529583]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 473,
+        "name": "Lateral AO Duckbill Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.53214009256223, 11.0973228909653]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 474,
+        "name": "Lateral AO Special Turnout(Left)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.527414621602134, 11.095566802656203]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 475,
+        "name": "NULLThresher CrossinG",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.527043399802849, 11.095321012465574]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 476,
+        "name": "Lateral AO Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.52512131792777, 11.094606329453759]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 477,
+        "name": "Lateral AO Turnout(Left) to TSA 1",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": "KASANAG",
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.52514639600443, 11.094569946435586]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 478,
+        "name": "Lateral AO Siphon",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Siphon"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.523517263501148, 11.093577257514296]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 479,
+        "name": "BAO Cut and Cover",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Cut and Cover"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.586162747212015, 11.1232469683913]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 480,
+        "name": "BAO DAM",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Dam"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.586551111190019, 11.124002979700569]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 482,
+        "name": "KASANAG IA OFFICE",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Station"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551936856555571, 11.115787346667702]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 484,
+        "name": "Lateral A2 End Check",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.526047547563635, 11.11775526405401]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 123,
+        "name": "Lateral A2 Drainage Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drainage"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.527950165678249, 11.118472936298703]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 485,
+        "name": "Lateral A2 Proportioning Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.53063011007481, 11.121682239331138]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 120,
+        "name": "Lateral A2 Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.530598110040941, 11.121716232263452]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 118,
+        "name": "Lateral A2 Drainage Outflow",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drainage"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.530985015105003, 11.122112050822949]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 115,
+        "name": "Lateral A2 Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.538924271572895, 11.126709221398169]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 486,
+        "name": "Water Reuse Facility",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Other Structures"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.538844050725899, 11.126690094370634]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 487,
+        "name": "Lateral A Thresher Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545209021219264, 11.126538109342361]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 108,
+        "name": "Lateral A Turnout to TSA 6",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545200974260382, 11.126560111293934]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 104,
+        "name": "Lateral A Turnout to TSA 6",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545212028897367, 11.126580085558505]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 488,
+        "name": "Lateral A Proportioning Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545216986319801, 11.126579040054159]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 489,
+        "name": "Lateral A2 Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545190009998805, 11.126590993157903]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 490,
+        "name": "Lateral A Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.545697591026183, 11.126981904392851]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 491,
+        "name": "Lateral A Special Turnout(Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.549318040234738, 11.127794224025319]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 492,
+        "name": "Lateral A Water Reuse Facility",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Other Structures"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551993871580862, 11.128197478606134]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 96,
+        "name": "Lateral A Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553558961825871, 11.128451040023013]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 97,
+        "name": "Lateral A Turnout tot TSA 5",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553600042228027, 11.128480253750974]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 128,
+        "name": "Lateral A Duckbill Weir",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.556657994233078, 11.127285259729462]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 493,
+        "name": "Lateral A Special Turnout (Right)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.556681969875129, 11.127279073301661]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 494,
+        "name": "Lateral A Special Turnout(Left)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.556687991374133, 11.127274035284541]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 495,
+        "name": "Lateral A Special Turnout (Left)",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.558502917582388, 11.125970233377892]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 496,
+        "name": "Lateral A Harvester Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.559278955372932, 11.125585163026875]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 131,
+        "name": "Lateral AO Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.560830941543657, 11.124892341883593]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 135,
+        "name": "Lateral AO Turnout to TSA 3",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.559657948467105, 11.122768056419785]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 138,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.558600928777466, 11.120982005554001]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 141,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.554754099078892, 11.11855671677829]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 497,
+        "name": "Lateral AO Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.554973774487593, 11.118488493107268]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 498,
+        "name": "Lateral AO Water Reuse Facility",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Other Structures"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.554572883597217, 11.11856716122065]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 154,
+        "name": "Lateral AO Turnout to TSA 4",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.55209012669394, 11.115579822553416]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 157,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.551162377376428, 11.114466058965993]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 161,
+        "name": "Lateral AO Drop",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Drop"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.548685407922733, 11.108544211210148]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 163,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.548711922543177, 11.108534856955693]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 499,
+        "name": "Lateral AO Special Turnout",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.547520506571914, 11.106734563572141]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 168,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54544733326783, 11.106129996580071]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 172,
+        "name": "Lateral AO Turnout to TSA 9",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542773161323041, 11.104724513053686]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 500,
+        "name": "Lateral AOB Gauging Station",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Other Structures"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.542708065923449, 11.104747203336116]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 185,
+        "name": "Lateral AO Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.53955300112294, 11.099855159526465]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 501,
+        "name": "Lateral AO Road Crossing",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.540378935786009, 11.100912882542794]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "name": "Lateral A Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.549280116927946, 11.127744123028926]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 502,
+        "name": "Lateral A End Check",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Check Gate"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.543978603644391, 11.125329517336109]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 503,
+        "name": "Lateral A Water Reuse Facility",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Other Structures"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.544066970973816, 11.125422524774313]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 504,
+        "name": "Lateral A Back to River",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Other Structures"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.543937219643539, 11.125307945672969]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 143,
+        "name": "Elevated Flume Inlet",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Inlet"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.555032069516329, 11.119526872802929]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 146,
+        "name": "Lateral AOA Turnout to TSA 1",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553850527940668, 11.121130143952104]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 505,
+        "name": "Lateral AOA Proportioning Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553858120458443, 11.121148585405894]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 506,
+        "name": "Lateral AOA Proportioning Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": null
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553389526398064, 11.121879633116118]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 91,
+        "name": "Lateral A1 Road Crossing",
+        "ele": 0.0,
+        "time": "2024-03-11",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Road Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.548845961246315, 11.133900238874707]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 483,
+        "name": "Lateral A1 Special Turnout",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.548889826742993, 11.133915679660674]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 507,
+        "name": "Lateral AOA Proportioning Weir",
+        "ele": null,
+        "time": null,
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.553389528259075, 11.121879984463542]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 481,
+        "name": "BAO Dam Intake",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Intake"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.586606282110566, 11.123978204594408]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 188,
+        "name": "Elevated Flume",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Flume"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.537930133683318, 11.109296876082334]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 431,
+        "name": "SMC Turnout to TSA 1",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.562476876813164, 11.110755976745677]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 251,
+        "name": "Lateral A1 Special Turnout",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Turnout"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.540126053588679, 11.131024901971374]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 276,
+        "name": "SMC Thresher Crossing",
+        "ele": 0.0,
+        "time": "2024-03-12",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Thresher Crossing"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.563145604297915, 11.086915918991339]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 334,
+        "name": "Lateral C Duck Bill Weir",
+        "ele": 0.0,
+        "time": "2024-03-18",
+        "desc": null,
+        "comment": null,
+        "images": null,
+        "type": "Duckbill"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [[124.54991262370514, 11.096040267774416]]
+      }
+    }
+  ]
+}
