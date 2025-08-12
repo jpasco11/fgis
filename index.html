@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Advanced Leaflet Sidebar Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* ============================ */
+      /* CSS VARIABLES & CUSTOM PROPERTIES - DARK GREEN THEME */
+      /* ============================ */
+      :root {
+        --primary-gradient: linear-gradient(135deg, #064e3b 0%, #022c22 100%);
+        --secondary-gradient: linear-gradient(135deg, #065f46 0%, #134e4a 100%);
+        --accent-gradient: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        --glass-bg: rgba(4, 120, 87, 0.15);
+        --glass-border: rgba(16, 185, 129, 0.3);
+        --dark-glass-bg: rgba(6, 78, 59, 0.2);
+        --shadow-light: 0 8px 32px rgba(4, 120, 87, 0.37);
+        --shadow-heavy: 0 15px 35px rgba(6, 78, 59, 0.3);
+        --text-primary: #ecfdf5;
+        --text-secondary: #d1fae5;
+        --border-radius: 16px;
+        --transition-smooth: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+
+      /* ============================ */
+      /* GLOBAL STYLES WITH ADVANCED FEATURES */
+      /* ============================ */
+      * {
+        box-sizing: border-box;
+      }
+
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+        background: linear-gradient(
+          135deg,
+          #064e3b 0%,
+          #022c22 30%,
+          #134e4a 70%,
+          #065f46 100%
+        );
+        background-size: 400% 400%;
+        animation: gradientShift 15s ease infinite;
+        color: var(--text-primary);
+        overflow: hidden;
+      }
+
+      @keyframes gradientShift {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      /* ============================ */
+      /* ADVANCED MAP STYLING */
+      /* ============================ */
+      #map {
+        width: 100%;
+        height: 100vh;
+        float: left;
+        transition: var(--transition-smooth);
+        background-color: #f8fafc;
+        border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+      }
+
+      #map::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 4px;
+        height: 100%;
+        background: var(--accent-gradient);
+        z-index: 1000;
+        opacity: 0;
+        transition: var(--transition-smooth);
+      }
+
+      #map.sidebar-open::before {
+        opacity: 1;
+        animation: pulseGlow 2s ease-in-out infinite alternate;
+      }
+
+      @keyframes pulseGlow {
+        0% {
+          box-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+        }
+        100% {
+          box-shadow: 0 0 20px rgba(16, 185, 129, 0.8),
+            0 0 40px rgba(16, 185, 129, 0.4);
+        }
+      }
+
+      /* ============================ */
+      /* GLASSMORPHISM SIDEBAR */
+      /* ============================ */
+      #sidebar {
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        background: var(--glass-bg);
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+        border: 1px solid var(--glass-border);
+        border-right: none;
+        padding: 32px 24px;
+        box-sizing: border-box;
+        overflow-y: auto;
+        width: 40%;
+        max-width: 500px;
+        min-width: 350px;
+        transition: var(--transition-bounce);
+        box-shadow: var(--shadow-light);
+        z-index: 1000;
+        transform: translateX(100%);
+        opacity: 0;
+      }
+
+      #sidebar::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      #sidebar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      #sidebar::-webkit-scrollbar-thumb {
+        background: var(--glass-border);
+        border-radius: 10px;
+      }
+
+      #sidebar::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.4);
+      }
+
+      #sidebar.sidebar-open {
+        transform: translateX(0);
+        opacity: 1;
+        animation: slideInBounce 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+
+      @keyframes slideInBounce {
+        0% {
+          transform: translateX(100%);
+          opacity: 0;
+        }
+        60% {
+          transform: translateX(-10px);
+          opacity: 0.8;
+        }
+        100% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      /* ============================ */
+      /* FLOATING ACTION BUTTONS */
+      /* ============================ */
+      .floating-controls {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1001;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .fab {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: var(--glass-bg);
+        backdrop-filter: blur(20px);
+        border: 1px solid var(--glass-border);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: var(--transition-smooth);
+        box-shadow: var(--shadow-light);
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .fab:hover {
+        transform: translateY(-4px) scale(1.1);
+        box-shadow: var(--shadow-heavy);
+        background: rgba(255, 255, 255, 0.25);
+      }
+
+      .fab:active {
+        transform: translateY(-2px) scale(1.05);
+      }
+
+      /* ============================ */
+      /* ADVANCED SIDEBAR HEADER */
+      /* ============================ */
+      .sidebar-header {
+        position: relative;
+        margin-bottom: 32px;
+        padding-bottom: 20px;
+      }
+
+      .sidebar-header::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60px;
+        height: 3px;
+        background: var(--accent-gradient);
+        border-radius: 2px;
+        animation: expandLine 1s ease-out;
+      }
+
+      @keyframes expandLine {
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 60px;
+        }
+      }
+
+      .sidebar-title {
+        font-size: 1.75rem;
+        font-weight: 700;
+        background: var(--accent-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 8px;
+        letter-spacing: -0.5px;
+      }
+
+      .sidebar-subtitle {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        font-weight: 400;
+      }
+
+      /* ============================ */
+      /* ENHANCED CLOSE BUTTON */
+      /* ============================ */
+      .close-sidebar-button {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: rgba(16, 185, 129, 0.2);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: var(--transition-smooth);
+        color: var(--text-primary);
+        font-size: 18px;
+        font-weight: 300;
+      }
+
+      .close-sidebar-button::before,
+      .close-sidebar-button::after {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 2px;
+        background: currentColor;
+        border-radius: 1px;
+        transition: var(--transition-smooth);
+      }
+
+      .close-sidebar-button::before {
+        transform: rotate(45deg);
+      }
+
+      .close-sidebar-button::after {
+        transform: rotate(-45deg);
+      }
+
+      .close-sidebar-button:hover {
+        transform: rotate(180deg) scale(1.1);
+        background: rgba(16, 185, 129, 0.3);
+        box-shadow: 0 4px 20px rgba(16, 185, 129, 0.2);
+      }
+
+      /* ============================ */
+      /* MODERN CARD-BASED TABLE */
+      /* ============================ */
+      .info-card {
+        background: rgba(6, 78, 59, 0.2);
+        backdrop-filter: blur(15px);
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        border-radius: var(--border-radius);
+        padding: 24px;
+        margin-bottom: 24px;
+        transition: var(--transition-smooth);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .info-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: var(--accent-gradient);
+      }
+
+      .info-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-heavy);
+        background: rgba(6, 78, 59, 0.25);
+        border-color: rgba(16, 185, 129, 0.4);
+      }
+
+      .property-grid {
+        display: grid;
+        gap: 16px;
+        animation: fadeInUp 0.6s ease-out;
+      }
+
+      @keyframes fadeInUp {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .property-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+        border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+        transition: var(--transition-smooth);
+      }
+
+      .property-item:last-child {
+        border-bottom: none;
+      }
+
+      .property-item:hover {
+        padding-left: 8px;
+        background: rgba(16, 185, 129, 0.1);
+        border-radius: 8px;
+        margin: 0 -8px;
+      }
+
+      .property-label {
+        font-weight: 600;
+        color: var(--text-primary);
+        font-size: 0.875rem;
+        letter-spacing: 0.25px;
+        flex: 1;
+      }
+
+      .property-value {
+        color: var(--text-secondary);
+        font-weight: 400;
+        text-align: right;
+        flex: 1;
+        word-wrap: break-word;
+      }
+
+      /* ============================ */
+      /* ADVANCED IMAGE PREVIEW */
+      /* ============================ */
+      .image-container {
+        position: relative;
+        margin-bottom: 24px;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        cursor: pointer;
+        transition: var(--transition-smooth);
+      }
+
+      .sidebar-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+        transition: var(--transition-smooth);
+      }
+
+      .image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(
+          45deg,
+          transparent,
+          rgba(255, 255, 255, 0.1)
+        );
+        opacity: 0;
+        transition: var(--transition-smooth);
+        z-index: 1;
+      }
+
+      .image-container:hover::before {
+        opacity: 1;
+      }
+
+      .image-container:hover .sidebar-image {
+        transform: scale(1.05);
+        filter: brightness(1.1) saturate(1.2);
+      }
+
+      .image-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(transparent, rgba(6, 78, 59, 0.9));
+        color: var(--text-primary);
+        padding: 20px 16px 16px;
+        font-size: 0.875rem;
+        transform: translateY(100%);
+        transition: var(--transition-smooth);
+        z-index: 2;
+      }
+
+      .image-container:hover .image-overlay {
+        transform: translateY(0);
+      }
+
+      /* ============================ */
+      /* ENHANCED MODAL */
+      /* ============================ */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 2000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background: rgba(6, 78, 59, 0.95);
+        backdrop-filter: blur(8px);
+        animation: modalFadeIn 0.3s ease-out;
+      }
+
+      @keyframes modalFadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      .modal-content {
+        position: relative;
+        margin: 5% auto;
+        display: block;
+        max-width: 90%;
+        max-height: 90%;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-heavy);
+        animation: modalSlideIn 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+      }
+
+      @keyframes modalSlideIn {
+        0% {
+          transform: scale(0.7) translateY(-50px);
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1) translateY(0);
+          opacity: 1;
+        }
+      }
+
+      .modal-close {
+        position: absolute;
+        top: -50px;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        background: rgba(16, 185, 129, 0.2);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: var(--transition-smooth);
+        color: var(--text-primary);
+        font-size: 24px;
+        font-weight: 300;
+      }
+
+      .modal-close:hover {
+        background: rgba(16, 185, 129, 0.3);
+        transform: rotate(90deg) scale(1.1);
+        box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);
+      }
+
+      /* ============================ */
+      /* ENHANCED LEAFLET TOOLTIPS */
+      /* ============================ */
+      .leaflet-tooltip {
+        background: var(--glass-bg) !important;
+        backdrop-filter: blur(20px) !important;
+        border: 1px solid var(--glass-border) !important;
+        border-radius: 12px !important;
+        padding: 8px 12px !important;
+        font-size: 0.875rem !important;
+        font-weight: 500 !important;
+        color: white !important;
+        box-shadow: var(--shadow-light) !important;
+        white-space: nowrap !important;
+      }
+
+      .leaflet-tooltip::before {
+        border-top-color: var(--glass-bg) !important;
+      }
+
+      /* ============================ */
+      /* LOADING ANIMATIONS */
+      /* ============================ */
+      .loading-spinner {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3000;
+      }
+
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(16, 185, 129, 0.3);
+        border-top: 3px solid #10b981;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* ============================ */
+      /* RESPONSIVE DESIGN */
+      /* ============================ */
+      @media (max-width: 768px) {
+        #sidebar {
+          width: 100%;
+          max-width: none;
+          min-width: none;
+        }
+
+        #map.sidebar-open {
+          transform: translateX(-20px);
+          opacity: 0.7;
+        }
+
+        .floating-controls {
+          top: 10px;
+          right: 10px;
+        }
+
+        .fab {
+          width: 48px;
+          height: 48px;
+          font-size: 18px;
+        }
+      }
+
+      /* ============================ */
+      /* MICRO-INTERACTIONS */
+      /* ============================ */
+      .interactive-element {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .interactive-element::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        transition: width 0.6s, height 0.6s;
+      }
+
+      .interactive-element:active::after {
+        width: 300px;
+        height: 300px;
+      }
+
+      /* Status indicators */
+      .status-indicator {
+        position: relative;
+        display: inline-block;
+        padding-left: 20px;
+      }
+
+      .status-indicator::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        animation: pulse 2s infinite;
+      }
+
+      .status-active::before {
+        background: #10b981;
+      }
+
+      .status-inactive::before {
+        background: #ef4444;
+      }
+
+      .status-pending::before {
+        background: #f59e0b;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loadingSpinner" class="loading-spinner">
+      <div class="spinner"></div>
+    </div>
+
+    <div class="floating-controls">
+      <div class="fab" title="Toggle Layers" onclick="toggleLayers()">⚙️</div>
+      <div class="fab" title="Center Map" onclick="centerMap()">🎯</div>
+    </div>
+
+    <div id="map"></div>
+
+    <div id="sidebar">
+      <div class="close-sidebar-button" onclick="closeSidebar()"></div>
+      <div id="sidebarContent"></div>
+    </div>
+
+    <div id="imageModal" class="modal">
+      <div class="modal-close" onclick="closeModal()">&times;</div>
+      <img class="modal-content" id="modalImage" />
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-ajax/dist/leaflet.ajax.min.js"></script>
+
+    <script>
+      // Global variables
+      var map = L.map("map").setView([11.0, 124.0], 8);
+      var sidebar = document.getElementById("sidebar");
+      var sidebarContent = document.getElementById("sidebarContent");
+      var mapElement = document.getElementById("map");
+      var loadingSpinner = document.getElementById("loadingSpinner");
+
+      // Base layer with enhanced styling
+      L.tileLayer(
+        "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+        {
+          attribution:
+            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+          subdomains: "abcd",
+          maxZoom: 19,
+        }
+      ).addTo(map);
+
+      var allLayers = L.featureGroup();
+      var layersLoaded = 0;
+      var totalLayers = 3;
+
+      function hideLoader() {
+        loadingSpinner.style.display = "none";
+      }
+
+      function checkAllLayersLoaded() {
+        layersLoaded++;
+        if (layersLoaded === totalLayers) {
+          allLayers.addTo(map);
+          map.fitBounds(allLayers.getBounds(), { padding: [20, 20] });
+          hideLoader();
+        }
+      }
+
+      function displayFeatureInfo(properties, type) {
+        const titleText =
+          type === "Project" ? "Project Details" : "Parcel Information";
+        const subtitleText =
+          type === "Project" ? "Infrastructure Development" : "Land Management";
+
+        let content = `
+          <div class="sidebar-header">
+            <h2 class="sidebar-title">${titleText}</h2>
+            <p class="sidebar-subtitle">${subtitleText}</p>
+          </div>
+        `;
+
+        if (properties.img) {
+          content += `
+            <div class="image-container interactive-element" onclick="openModal('${properties.img}')">
+              <img src="${properties.img}" alt="Preview Image" class="sidebar-image">
+              <div class="image-overlay">Click to view full size</div>
+            </div>
+          `;
+        }
+
+        content += `<div class="info-card">`;
+        content += `<div class="property-grid">`;
+
+        if (type === "Parcel") {
+          const status = properties.fusa ? "active" : "inactive";
+          content += `
+            <div class="property-item">
+              <span class="property-label">Lot Number</span>
+              <span class="property-value">${
+                properties.lot_number || "N/A"
+              }</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">Land Owner</span>
+              <span class="property-value">${
+                properties.owner_name || "N/A"
+              }</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">Location</span>
+              <span class="property-value">${
+                properties.lot_location || "N/A"
+              }</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">Area</span>
+              <span class="property-value">${properties.area || "N/A"}</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">FUSA Status</span>
+              <span class="property-value status-indicator status-${status}">${
+            properties.fusa || "N/A"
+          }</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">TSAG</span>
+              <span class="property-value">${properties.tsag || "N/A"}</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">Division</span>
+              <span class="property-value">${
+                properties.division || "N/A"
+              }</span>
+            </div>
+          `;
+        } else if (type === "Project") {
+          content += `
+            <div class="property-item">
+              <span class="property-label">Description</span>
+              <span class="property-value">${
+                properties.Descriptio || "N/A"
+              }</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">Year</span>
+              <span class="property-value">${properties.year || "N/A"}</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">Facility</span>
+              <span class="property-value">${
+                properties.Facility || "N/A"
+              }</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">Contract Amount</span>
+              <span class="property-value">${
+                properties.Contract || "N/A"
+              }</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">ABC</span>
+              <span class="property-value">${properties.ABC || "N/A"}</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">Contract Number</span>
+              <span class="property-value">${properties.ContN || "N/A"}</span>
+            </div>
+          `;
+        }
+
+        content += `</div></div>`;
+
+        sidebarContent.innerHTML = content;
+        sidebar.classList.add("sidebar-open");
+        mapElement.classList.add("sidebar-open");
+        mapElement.style.width = "65%";
+      }
+
+      function closeSidebar() {
+        sidebar.classList.remove("sidebar-open");
+        mapElement.classList.remove("sidebar-open");
+        mapElement.style.width = "100%";
+        sidebarContent.innerHTML = "";
+
+        setTimeout(() => {
+          map.invalidateSize();
+        }, 400);
+      }
+
+      function toggleLayers() {
+        // Placeholder for layer toggle functionality
+        console.log("Toggle layers functionality can be implemented here");
+      }
+
+      function centerMap() {
+        if (allLayers.getLayers().length > 0) {
+          map.fitBounds(allLayers.getBounds(), { padding: [20, 20] });
+        }
+      }
+
+      // Enhanced Parcel layer
+      var parcelLayer = new L.GeoJSON.AJAX("parcel.geojson", {
+        onEachFeature: function (feature, layer) {
+          layer.on("click", function () {
+            displayFeatureInfo(feature.properties, "Parcel");
+          });
+          layer.on("mouseover", function () {
+            layer.setStyle({ fillOpacity: 0.7, weight: 2 });
+          });
+          layer.on("mouseout", function () {
+            layer.setStyle({ fillOpacity: 0.5, weight: 1 });
+          });
+        },
+        style: {
+          color: "#10b981",
+          weight: 1,
+          fillOpacity: 0.5,
+          fillColor: "#10b981",
+        },
+      });
+
+      parcelLayer.on("data:loaded", function () {
+        allLayers.addLayer(parcelLayer);
+        checkAllLayersLoaded();
+      });
+
+      // Enhanced Canal layer
+      var selectedCanal = null;
+      var canalLayer = new L.GeoJSON.AJAX("canal.geojson", {
+        onEachFeature: function (feature, layer) {
+          if (feature.properties && feature.properties.remarks) {
+            layer.bindTooltip(feature.properties.remarks, {
+              sticky: true,
+              className: "custom-tooltip",
+            });
+          }
+
+          layer.on("click", function (e) {
+            if (selectedCanal) {
+              canalLayer.resetStyle(selectedCanal);
+            }
+            layer.setStyle({
+              color: "#ef4444",
+              weight: 5,
+              opacity: 1,
+            });
+            selectedCanal = e.target;
+          });
+
+          layer.on("mouseover", function () {
+            if (selectedCanal !== layer) {
+              layer.setStyle({ weight: 4, opacity: 1 });
+            }
+          });
+
+          layer.on("mouseout", function () {
+            if (selectedCanal !== layer) {
+              layer.setStyle({ weight: 3, opacity: 0.85 });
+            }
+          });
+        },
+        style: {
+          color: "#3b82f6",
+          weight: 3,
+          opacity: 0.85,
+        },
+      });
+
+      canalLayer.on("data:loaded", function () {
+        allLayers.addLayer(canalLayer);
+        canalLayer.bringToFront();
+        checkAllLayersLoaded();
+      });
+
+      // Enhanced Project layer
+      var projectIcon = L.icon({
+        iconUrl: "icon.png",
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32],
+      });
+
+      var projectLayer = new L.GeoJSON.AJAX("proj.geojson", {
+        pointToLayer: function (feature, latlng) {
+          return L.marker(latlng, { icon: projectIcon });
+        },
+        onEachFeature: function (feature, layer) {
+          layer.on("click", function () {
+            displayFeatureInfo(feature.properties, "Project");
+          });
+        },
+      });
+
+      projectLayer.on("data:loaded", function () {
+        allLayers.addLayer(projectLayer);
+        checkAllLayersLoaded();
+      });
+
+      // Enhanced Modal functionality
+      var modal = document.getElementById("imageModal");
+      var modalImg = document.getElementById("modalImage");
+
+      function openModal(imageSrc) {
+        modal.style.display = "block";
+        modalImg.src = imageSrc;
+        document.body.style.overflow = "hidden";
+
+        // Add fade-in animation
+        setTimeout(() => {
+          modal.style.opacity = "1";
+        }, 10);
+      }
+
+      function closeModal() {
+        modal.style.opacity = "0";
+        setTimeout(() => {
+          modal.style.display = "none";
+          document.body.style.overflow = "auto";
+        }, 300);
+      }
+
+      // Enhanced event listeners
+      modal.addEventListener("click", function (event) {
+        if (event.target === modal) {
+          closeModal();
+        }
+      });
+
+      // Keyboard navigation
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          if (sidebar.classList.contains("sidebar-open")) {
+            closeSidebar();
+          }
+          if (modal.style.display === "block") {
+            closeModal();
+          }
+        }
+      });
+
+      // Map resize handler
+      window.addEventListener("resize", function () {
+        setTimeout(() => {
+          map.invalidateSize();
+        }, 100);
+      });
+
+      // Initialize map interactions
+      map.on("click", function () {
+        if (selectedCanal) {
+          canalLayer.resetStyle(selectedCanal);
+          selectedCanal = null;
+        }
+      });
+
+      // Smooth map animations
+      map.on("zoomstart", function () {
+        mapElement.style.transition = "none";
+      });
+
+      map.on("zoomend", function () {
+        mapElement.style.transition = "var(--transition-smooth)";
+      });
+
+      // Error handling for missing files
+      window.addEventListener("error", function (e) {
+        if (e.target.tagName === "IMG") {
+          console.warn("Image failed to load:", e.target.src);
+        }
+      });
+
+      // Initialize loading state
+      setTimeout(hideLoader, 5000); // Fallback in case layers don't load
+
+      // Global function assignments for onclick handlers
+      window.openModal = openModal;
+      window.closeModal = closeModal;
+      window.closeSidebar = closeSidebar;
+      window.toggleLayers = toggleLayers;
+      window.centerMap = centerMap;
+
+      // Performance optimization: Debounce resize events
+      function debounce(func, wait) {
+        let timeout;
+        return function executedFunction(...args) {
+          const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+          };
+          clearTimeout(timeout);
+          timeout = setTimeout(later, wait);
+        };
+      }
+
+      const debouncedResize = debounce(() => {
+        map.invalidateSize();
+      }, 250);
+
+      window.addEventListener("resize", debouncedResize);
+
+      // Add some interactive feedback
+      document.querySelectorAll(".interactive-element").forEach((element) => {
+        element.addEventListener("click", function (e) {
+          const ripple = document.createElement("div");
+          const rect = this.getBoundingClientRect();
+          const size = Math.max(rect.width, rect.height);
+          const x = e.clientX - rect.left - size / 2;
+          const y = e.clientY - rect.top - size / 2;
+
+          ripple.style.cssText = `
+            position: absolute;
+            width: ${size}px;
+            height: ${size}px;
+            left: ${x}px;
+            top: ${y}px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            transform: scale(0);
+            animation: ripple 0.6s ease-out;
+            pointer-events: none;
+            z-index: 10;
+          `;
+
+          this.appendChild(ripple);
+
+          setTimeout(() => {
+            ripple.remove();
+          }, 600);
+        });
+      });
+
+      // Add CSS animation for ripple effect
+      const style = document.createElement("style");
+      style.textContent = `
+        @keyframes ripple {
+          to {
+            transform: scale(2);
+            opacity: 0;
+          }
+        }
+        
+        .interactive-element {
+          position: relative;
+          overflow: hidden;
+        }
+      `;
+      document.head.appendChild(style);
+    </script>
+  </body>
+</html>
