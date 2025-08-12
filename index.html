@@ -947,8 +947,7 @@
       function displayFeatureInfo(properties, type) {
         const titleText =
           type === "Project" ? "Project Details" : "Parcel Information";
-        const subtitleText =
-          type === "Project" ? "Infrastructure Development" : "Land Management";
+        const subtitleText = type === "Project" ? " " : " ";
 
         let content = `
           <div class="sidebar-header">
@@ -1051,14 +1050,7 @@
           `;
         } else if (type === "Canal") {
           content += `
-            <div class="property-item">
-              <span class="property-label">Name</span>
-              <span class="property-value">${properties.name || "N/A"}</span>
-            </div>
-            <div class="property-item">
-              <span class="property-label">Type</span>
-              <span class="property-value">${properties.type || "N/A"}</span>
-            </div>
+           
             <div class="property-item">
               <span class="property-label">Description</span>
               <span class="property-value">${properties.remarks || "N/A"}</span>
@@ -1685,4 +1677,3 @@
     </script>
   </body>
 </html>
-
