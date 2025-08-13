@@ -849,14 +849,10 @@
       <div id="searchFab" class="fab interactive-element" title="Search">
         🔎
       </div>
-      <!-- <div id="measureFab" class="fab interactive-element" title="Measure">
-        📐
-      </div> -->
       <div id="centerFab" class="fab interactive-element" title="Center Map">
         🎯
       </div>
     </div>
-    <!-- Layer Control Panel -->
     <div id="layerControlPanel" class="side-panel">
       <h3>Map Layers</h3>
       <label class="layer-item">
@@ -873,7 +869,6 @@
       </label>
     </div>
 
-    <!-- Search Panel -->
     <div id="searchPanel" class="side-panel">
       <h3>Search Parcels</h3>
       <input
@@ -912,9 +907,14 @@
       var loadingSpinner = document.getElementById("loadingSpinner");
       var layerControlPanel = document.getElementById("layerControlPanel");
       var searchResults = document.getElementById("searchResults");
+      const layersFab = document.getElementById("layersFab");
+      const searchFab = document.getElementById("searchFab");
+      const layerPanel = document.getElementById("layerControlPanel");
+      const searchPanel = document.getElementById("searchPanel");
 
       var selectedCanal = null;
       var selectedParcel = null;
+      var selectedProjLine = null;
 
       // Base layer with enhanced styling
       L.tileLayer(
@@ -929,7 +929,7 @@
 
       var allLayers = L.featureGroup();
       var layersLoaded = 0;
-      var totalLayers = 3;
+      var totalLayers = 4;
 
       function hideLoader() {
         loadingSpinner.style.display = "none";
@@ -1048,6 +1048,23 @@
               <span class="property-value">${properties.ContN || "N/A"}</span>
             </div>
           `;
+        } else if (type === "Project Line") {
+          content += `
+            <div class="property-item">
+              <span class="property-label">Name</span>
+              <span class="property-value">${properties.Name || "N/A"}</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">Station</span>
+              <span class="property-value">${
+                properties.description || "N/A"
+              }</span>
+            </div>
+            <div class="property-item">
+              <span class="property-label">Contract Number</span>
+              <span class="property-value">${properties.layer || "N/A"}</span>
+            </div>
+          `;
         } else if (type === "Canal") {
           content += `
            
@@ -1066,6 +1083,13 @@
         mapElement.style.width = "65%";
       }
 
+      // Default styles for layers
+      const defaultProjectLinesStyle = {
+        color: "#f97316",
+        weight: 4,
+        opacity: 0.8,
+      };
+
       function closeSidebar() {
         sidebar.classList.remove("sidebar-open");
         mapElement.classList.remove("sidebar-open");
@@ -1080,6 +1104,10 @@
         if (selectedCanal) {
           canalLayer.resetStyle(selectedCanal);
           selectedCanal = null;
+        }
+        if (selectedProjLine) {
+          projectLinesLayer.resetStyle(selectedProjLine);
+          selectedProjLine = null;
         }
 
         setTimeout(() => {
@@ -1135,6 +1163,10 @@
               canalLayer.resetStyle(selectedCanal);
               selectedCanal = null;
             }
+            if (selectedProjLine) {
+              projectLinesLayer.resetStyle(selectedProjLine);
+              selectedProjLine = null;
+            }
 
             // Highlight the clicked parcel
             layer.setStyle({ color: "#f97316", weight: 3 });
@@ -1183,6 +1215,10 @@
             if (selectedParcel) {
               parcelLayer.resetStyle(selectedParcel);
               selectedParcel = null;
+            }
+            if (selectedProjLine) {
+              projectLinesLayer.resetStyle(selectedProjLine);
+              selectedProjLine = null;
             }
 
             // Highlight the new selected canal with bright yellow
@@ -1238,9 +1274,57 @@
         },
       });
 
-      // Don't add to map or allLayers yet — hidden by default
+      // NEW: LineString Project Layer
+      var projectLinesLayer = new L.GeoJSON.AJAX("projlines.geojson", {
+        style: defaultProjectLinesStyle,
+        onEachFeature: function (feature, layer) {
+          layer.on("click", function (e) {
+            L.DomEvent.stopPropagation(e);
+
+            // Reset previous selection
+            if (selectedProjLine) {
+              projectLinesLayer.resetStyle(selectedProjLine);
+            }
+            if (selectedCanal) {
+              canalLayer.resetStyle(selectedCanal);
+              selectedCanal = null;
+            }
+            if (selectedParcel) {
+              parcelLayer.resetStyle(selectedParcel);
+              selectedParcel = null;
+            }
+
+            // Highlight the clicked line
+            layer.setStyle({
+              color: "#FFD700", // Gold color for highlight
+              weight: 6,
+              opacity: 1,
+              dashArray: "6, 6",
+            });
+            selectedProjLine = layer;
+
+            displayFeatureInfo(feature.properties, "Project Line");
+          });
+
+          layer.on("mouseover", function () {
+            if (selectedProjLine !== layer) {
+              layer.setStyle({ weight: 5, opacity: 1 });
+            }
+          });
+
+          layer.on("mouseout", function () {
+            if (selectedProjLine !== layer) {
+              projectLinesLayer.resetStyle(layer);
+            }
+          });
+        },
+      });
+
       projectLayer.on("data:loaded", function () {
-        // We don't add it to the map, only load it in memory
+        checkAllLayersLoaded();
+      });
+
+      projectLinesLayer.on("data:loaded", function () {
         checkAllLayersLoaded();
       });
 
@@ -1250,15 +1334,19 @@
         .addEventListener("change", (e) => {
           if (e.target.checked) {
             map.addLayer(projectLayer);
-            allLayers.addLayer(projectLayer); // Add to bounds group when enabled
+            map.addLayer(projectLinesLayer);
+            allLayers.addLayer(projectLayer);
+            allLayers.addLayer(projectLinesLayer);
           } else {
             map.removeLayer(projectLayer);
-            allLayers.removeLayer(projectLayer); // Remove from bounds group when disabled
+            map.removeLayer(projectLinesLayer);
+            allLayers.removeLayer(projectLayer);
+            allLayers.removeLayer(projectLinesLayer);
           }
         });
 
       var geotagIcon = L.icon({
-        iconUrl: "geotag-icon.png", // Replace with your icon path
+        iconUrl: "geotag-icon.png",
         iconSize: [28, 28],
         iconAnchor: [14, 28],
         popupAnchor: [0, -28],
@@ -1268,10 +1356,10 @@
       var geotagLayer = new L.GeoJSON.AJAX("BaoGeotag.geojson", {
         pointToLayer: function (feature, latlng) {
           return L.circleMarker(latlng, {
-            radius: 5, // circle size
-            fillColor: "#ff0000", // red fill
-            color: "#b30000", // darker red border
-            weight: 1, // border thickness
+            radius: 5,
+            fillColor: "#ff0000",
+            color: "#b30000",
+            weight: 1,
             opacity: 1,
             fillOpacity: 0.8,
           });
@@ -1286,20 +1374,12 @@
 
       // Load into memory but don't add to map initially
       geotagLayer.on("data:loaded", function () {
-        checkAllLayersLoaded(); // don't add to map by default
+        checkAllLayersLoaded();
       });
 
-      // Load into memory but don't add to map initially
-      geotagLayer.on("data:loaded", function () {
-        checkAllLayersLoaded(); // Don't add to map by default
-      });
       // --- NEW FUNCTIONALITY ---
 
       // --- Panel Toggles ---
-      const layersFab = document.getElementById("layersFab");
-      const searchFab = document.getElementById("searchFab");
-      const layerPanel = document.getElementById("layerControlPanel");
-      const searchPanel = document.getElementById("searchPanel");
 
       // Toggle Layer panel
       layersFab.addEventListener("click", function () {
@@ -1340,6 +1420,9 @@
           } else if (selectedCanal) {
             // Center on selected canal
             map.fitBounds(selectedCanal.getBounds(), { padding: [20, 20] });
+          } else if (selectedProjLine) {
+            // Center on selected proj line
+            map.fitBounds(selectedProjLine.getBounds(), { padding: [20, 20] });
           } else {
             // Default: center on all layers
             centerMap();
@@ -1363,8 +1446,9 @@
         .getElementById("projectToggle")
         .addEventListener("change", (e) => {
           e.target.checked
-            ? map.addLayer(projectLayer)
-            : map.removeLayer(projectLayer);
+            ? (map.addLayer(projectLayer), map.addLayer(projectLinesLayer))
+            : (map.removeLayer(projectLayer),
+              map.removeLayer(projectLinesLayer));
         });
       document
         .getElementById("geotagToggle")
@@ -1563,6 +1647,16 @@
       });
 
       map.on("click", function (e) {
+        // Close layer control and search panels if open
+        if (layerPanel.style.display === "flex") {
+          layerPanel.style.display = "none";
+          layersFab.classList.remove("active");
+        }
+        if (searchPanel.style.display === "flex") {
+          searchPanel.style.display = "none";
+          searchFab.classList.remove("active");
+        }
+
         // Only close sidebar if not clicking on a feature
         closeSidebar();
         if (selectedCanal) {
@@ -1572,6 +1666,10 @@
         if (selectedParcel) {
           parcelLayer.resetStyle(selectedParcel);
           selectedParcel = null;
+        }
+        if (selectedProjLine) {
+          projectLinesLayer.resetStyle(selectedProjLine);
+          selectedProjLine = null;
         }
       });
       // Smooth map animations
